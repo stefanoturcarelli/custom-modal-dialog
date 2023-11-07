@@ -1,0 +1,52 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Dialog</title>
+
+	<link rel="stylesheet" href="../assets/css/reset.css">
+	<link rel="stylesheet" href="./dialog.css">
+	<meta name="description" content="Dialog">
+
+	<meta property="og:title" content="Dialog">
+	<meta property="og:type" content="Dialog">
+	<meta property="og:url" content="Dialog">
+	<meta property="og:image" content="Dialog">
+
+	<link rel="icon" href="../assets/img/favicon.png" sizes="any">
+	<link rel="apple-touch-icon" href="../assets/img/favicon.png">
+
+	<link rel="manifest" href="site.webmanifest">
+	<meta name="theme-color" content="#fafafa">
+	<script src="./dialog.js" defer></script>
+</head>
+
+<body>
+	<header class="container">
+		<nav>
+			<h1>Projects</h1>
+			<button class="btn-1">Get in touch</button>
+		</nav>
+	</header>
+	<main class="container flex flex__column-center">
+		<div class="form-container">
+			<div>
+				<h2>Get in touch</h2>
+				<form class="flex flex__column-left">
+					<label for="name">Full Name:</label>
+					<input type="text" id="name" placeholder="John Doe" required>
+					<label for="email">Email:</label>
+					<input type="email" id="email" placeholder="Email" required>
+					<label for="message">Message:</label>
+					<textarea name="message" id="message" cols="30" rows="5" placeholder="Message" required></textarea>
+					<input class="btn-1" id="send-button" type="button" value="SEND" alt="Send button">
+				</form>
+				<p>hello@stefanoturcarelli.com</p>
+			</div>
+		</div>
+	</main>
+</body>
+
+</html>
